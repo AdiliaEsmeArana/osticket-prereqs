@@ -84,7 +84,7 @@ Next, I downloaded and installed Microsoft Visual C++ Redistributable. Installin
 <img src="https://i.imgur.com/K3qZcSF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next, I downloaded and installed My SQL. After it was installed, I set up credentials for future use of MySQL Server. Once I configured MySQL, it created a database that OS ticket will use to store all the data (Example: user accounts, ticketing information, customer information etc.) 
 </p>
 <br />
 
