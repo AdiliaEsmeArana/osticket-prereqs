@@ -34,8 +34,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 This process was done on a Virtual Machine I created through Microsoft Azure. I then connected to my virtual machine through a remote desktop connection.
-To install IIS : In the search bar type "control panel" and enter program. Click "program uninstall programs" > click "Turn windows on and off" Check the box "Internet Information Services" and expand the tab.
-Search for "World Wide Web Services" and expand the tab. Search for "Application Development Features" and expand the tab. Check the "CGI" box and click "ok". 
+To install IIS : In the search bar type "control panel" and enter program> Click "program uninstall programs" > click "Turn windows on and off"> Check the box "Internet Information Services" and expand the tab>
+search for "World Wide Web Services" and expand the tab> search for "Application Development Features" and expand the tab> Check the "CGI" box> click "ok". 
 The changes applied will begin to load and IIS will be successfully installed. 
 </p>
 <br />
@@ -60,7 +60,7 @@ Next, I downloaded and installed the Rewrite Module. This system will properly r
 <img src="https://i.imgur.com/F0YOTAH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-To create the directory C:\PHP: Right click the manila folder on your taskbar > Click "File Explorer"> Open Tab for "This PC"> Click "Window (C:)" > Create a new folder inside "Window (C:) named "PHP"
+To create the directory C:\PHP : Right click the manila folder on your taskbar > Click "File Explorer"> Open Tab for "This PC"> Click "Window (C:)" > Create a new folder inside "Window (C:) named "PHP"
 </p>
 <br />
 
@@ -89,10 +89,10 @@ Next, I downloaded and installed My SQL. After it was installed, I set up creden
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jC5VnhB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+This is the final step before downloading OS Ticket. I had to do some configurations in the IIS as an Admin. Registering PHP within IIS: In the search bar on the taskbar, type "IIS"> right click on "IIS" and choose "Run as administrator"> click "PHP Manager" > click "Register new PHP version" > Click "..." to browse > click "Window (C:)"> click "PHP"> click "php-cgi" > click "ok". I reloaded the IIS after making those changes by stopping and starting the server. 
 </p>
 <br />
 
