@@ -97,25 +97,61 @@ This is the final step before downloading OS Ticket. I had to do some configurat
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nblRIAV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/TOTsMPI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/COn44Lx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/f3MvHA1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/hbeqirb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9XY7886.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9i84YhA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  Lastly, I downloaded osTicket. Then, I extracted and copied the "Upload" folder into the c:\inetpub\wwwroot folder. I did the following: Right click on the manila folder in the task bar> 
+click "file explorer"> click "This PC"> click "Windows (C:)"> click "inetpub"> click "wwwroot"> drag and drop "upload" folder 
+into "wwwroot" folder> rename "upload" file to "osTicket" Then I reloaded the IIS server by stopping it and starting it again. 
+To load the OsTicket site: Inside the IIS manager> click "sites"> click "default web site"> click "osTicket"> on the right side of screen click "browse" The osTicket Installer should appear on internet browser. 
+Some Extensions were not enabled when installing OsTicket. I manually went into IIS and made the necesary changes. 
+I did the following: Inside the IIS manager> click "sites"> click "default web site"> click "osTicket"> Double-click "PHP Manager"> Click “Enable or disable an extension”> Enable: php_imap.dll> 
+Enable: php_intl.dll> Enable: php_opcache.dll Then I renamed: ost-config.php and assigned permissions to it, allowing everyone to have full control. 
+I continued setting up OsTicket in my browser which included creating a help desk name, Admin User and setting up the database settings. Lastly, I had to download one more program, called "HeidiSQL." This program allows me to connect to the SQL database I downloaded earlier.
+Then I created a database named osTicket that will link to my osTicket web application. Finally, my osTicket was succesfully installed onto my virtual machine on Microsoft Azure. 
+</p>
+<br />
+
+
