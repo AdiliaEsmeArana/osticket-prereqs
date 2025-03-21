@@ -21,7 +21,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install / Enable IIS in Windows wit CGI
 - Install PHP Manager for IIS
 - Install the Rewrite Module
-- Item 4
+- Create the directory C:\PHP
 - Item 5
 
 <h2>Installation Steps</h2>
