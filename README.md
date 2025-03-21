@@ -24,7 +24,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Create the directory C:\PHP
 - Download PHP 7.3.8 and unzip the contents into C:\PHP
 - Install VC_redist.x86.exe.
-- Item 7
+- IIS Configuration
 - Item 8
 
 <h2>Installation Steps</h2>
