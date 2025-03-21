@@ -25,7 +25,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Download PHP 7.3.8 and unzip the contents into C:\PHP
 - Install Microsoft Visual C++ Redistributable
 - IIS Configuration
-- Install OS Ticket
+- Install osTicket v1.15.8
 
 <h2>Installation Steps</h2>
 
