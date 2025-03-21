@@ -23,7 +23,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install the Rewrite Module
 - Create the directory C:\PHP
 - Download PHP 7.3.8 and unzip the contents into C:\PHP
-- Item 6
+- Install VC_redist.x86.exe.
 - Item 7
 - Item 8
 
