@@ -69,7 +69,7 @@ To create the directory C:\PHP: Right click the manila folder on your taskbar > 
 <img src="https://i.imgur.com/ydgg3WH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Next, extract all files from "php 7.3.8-nts-Win32-VC15-x86" zip file > click "browse > click "window (C:)" > click "PHP" folder > click "select folder" > click "Extract". After the extraction is complete, all contents from the zip folder will have successfully been added to the PHP folder that was created in the previous step. 
+Next, right click on "php 7.3.8-nts-Win32-VC15-x86" zip file > click "Extract All..." > click "browse > click "window (C:)" > click "PHP" folder > click "select folder" > click "Extract". After the extraction is complete, all contents from the zip folder will have successfully been added to the PHP folder that was created in the previous step. 
 </p>
 <br />
 
