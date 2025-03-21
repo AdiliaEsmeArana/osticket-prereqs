@@ -27,10 +27,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OuF5fYv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+This process was done on a Virtual Machine I created through Microsoft Azure. I then connected to my virtual machine through a remote desktop connection.
+To install IIS:  
+In the search bar type "control panel" and enter program. Click "program uninstall programs" > click "Turn windows on and off" Check the box "Internet Information Services" and expand tab.
+Search for "World Wide Web Services" and expand tab. Search for "Application Development Features" and expand tab. Check the "CGI" box and click ok. 
+The changes applied will begin to load and IIS will be successfully installed. 
 </p>
 <br />
 
