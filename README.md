@@ -18,12 +18,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Install / Enable IIS in Windows wit CGI
+- Install / Enable IIS in Windows with CGI
 - Install PHP Manager for IIS
 - Install the Rewrite Module
 - Create the directory C:\PHP
 - Download PHP 7.3.8 and unzip the contents into C:\PHP
-- Install VC_redist.x86.exe.
+- Install Microsoft Visual C++ Redistributable
 - IIS Configuration
 - Item 8
 
