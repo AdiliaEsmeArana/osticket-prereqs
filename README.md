@@ -34,8 +34,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 This process was done on a Virtual Machine I created through Microsoft Azure. I then connected to my virtual machine through a remote desktop connection.
-To install IIS:  
-In the search bar type "control panel" and enter program. Click "program uninstall programs" > click "Turn windows on and off" Check the box "Internet Information Services" and expand the tab.
+To install IIS : In the search bar type "control panel" and enter program. Click "program uninstall programs" > click "Turn windows on and off" Check the box "Internet Information Services" and expand the tab.
 Search for "World Wide Web Services" and expand the tab. Search for "Application Development Features" and expand the tab. Check the "CGI" box and click "ok". 
 The changes applied will begin to load and IIS will be successfully installed. 
 </p>
@@ -53,7 +52,7 @@ Next, I downloaded and installed PHP Manager for IIS.
 <img src="https://i.imgur.com/71on3qz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Next, I downloaded and installed the Rewrite Module. This system will properly route the URLs in the OS Ticket web application. The rewrite module is required for the OS Ticket to run and function properly. 
+Next, I downloaded and installed the Rewrite Module. This system will properly route the URLs in the OS Ticket web application. The Rewrite Module is required for the OS Ticket to run and function properly. 
 </p>
 <br />
 
@@ -74,10 +73,10 @@ Next, right click on "php 7.3.8-nts-Win32-VC15-x86" zip file > click "Extract Al
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FP87hn8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next, I downloaded and installed Microsoft Visual C++ Redistributable. Installing this ensures that the OS Ticket system has the necessary libraries to function properly.
 </p>
 <br />
 
